@@ -1,1 +1,1 @@
-web: java $JAVA_OPTS -jar -Dserver.port=$PORT build/libs/*.jar
+web: java -Dserver.port=$PORT -jar weather-api-project-1\target
