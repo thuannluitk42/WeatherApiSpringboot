@@ -1,1 +1,1 @@
-web: java -Dserver.port=$PORT -jar $PATH_TO_JAR
+web: java $JAVA_OPTS -jar -Dserver.port=$PORT build/libs/*.jar
