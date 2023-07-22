@@ -1,1 +1,0 @@
-web: java -Dserver.port=$PORT -jar weather-api-project-1\target
